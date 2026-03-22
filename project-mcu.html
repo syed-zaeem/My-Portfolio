@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MCU Project</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free Website Template" name="keywords" />
+    <meta content="Free Website Template" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      .project-header {
+        /* text-align: center; */
+        margin: 50px 0;
+      }
+
+      .project-header h1 {
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      .project-header p {
+        font-size: 16px;
+      }
+
+      .project-section {
+        padding: 50px 0;
+      }
+
+      .project-description {
+        margin-top: 30px;
+      }
+
+      .project-tech span {
+        display: inline-block;
+        background: #0F172A;
+        color: #fff;
+        padding: 6px 12px;
+        margin: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+
+      .project-buttons a {
+        margin-right: 10px;
+      }
+
+      .back-btn {
+        padding: 50px 0px 30px 0px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <div class="container">
+      <!-- Project Title -->
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="project-header">
+            <div class="back-btn">
+              <a href="index.html" class="" style="text-decoration: none">
+                ← Back
+              </a>
+            </div>
+            <h1>MCU - Marvel Cinematic Universe Fan Portal</h1>
+            <p>
+              A full-stack MCU (Marvel Cinematic Universe) fan portal built with
+              modern technologies.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Section -->
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div
+            id="projectCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="img/mcu/1.png"
+                  class="d-block w-100"
+                  alt="Home Page"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="img/mcu/2.png"
+                  class="d-block w-100"
+                  alt="Product Listing"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="img/mcu/3.png"
+                  class="d-block w-100"
+                  alt="Cart Page"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="img/mcu/4.png"
+                  class="d-block w-100"
+                  alt="Cart Page"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="img/mcu/5.png"
+                  class="d-block w-100"
+                  alt="Cart Page"
+                />
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#projectCarousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#projectCarousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Details -->
+      <div class="project-section">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="project-description">
+              <h3>Project Overview</h3>
+              <p>
+                Users often need to visit multiple platforms to find content and
+                stay engaged, while many websites fail to provide an interactive
+                and organized experience. To solve this, I developed a
+                centralized web platform that combines structured content with
+                interactive features. The system allows users to explore
+                detailed information in an organized way while engaging with
+                interactive elements, creating a more enjoyable and immersive
+                experience.
+              </p>
+            </div>
+
+            <div class="project-description">
+              <h3>Key Features</h3>
+              <ul>
+                <li>Centralized platform for organized content access</li>
+                <li>Interactive features to improve user engagement</li>
+                <li>Easy navigation and user-friendly interface</li>
+                <li>
+                  Structured content presentation for better understanding
+                </li>
+                <li>Responsive design for seamless use across devices</li>
+              </ul>
+            </div>
+
+            <div class="project-description">
+              <h3>Business Impact</h3>
+              <ul>
+                <li>Increases user engagement and retention</li>
+                <li>Provides a better and more interactive user experience</li>
+                <li>Reduces dependency on multiple platforms</li>
+                <li>Scalable solution for content-driven applications</li>
+              </ul>
+            </div>
+
+            <div class="project-description project-tech">
+              <h3>Technologies Used</h3>
+              <span>React.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+              <span>Tailwind CSS</span>
+              <span>Material UI</span>
+            </div>
+
+            <!-- <div class="project-description project-buttons">
+              <h3>Project Links</h3>
+              <a href="#" class="btn btn-primary">Live Demo</a>
+              <a href="#" class="btn btn-dark">GitHub</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to top button -->
+    <!-- <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a> -->
+
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+      <div class="loader"></div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
