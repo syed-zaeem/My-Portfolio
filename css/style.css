@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #2563EB;
+    color: #0F172A;
     outline: none;
     text-decoration: none;
 }
@@ -44,20 +44,22 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: #2563EB;
+    /* background: #0F172A; */
+    background: #0F172A;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #2563EB;
+    /* box-shadow: inset 0 0 0 50px #0F172A; */
+    box-shadow: inset 0 0 0 50px #0F172A;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
 
 .btn:hover {
-    color: #2563EB;
+    color: #0F172A;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #2563EB;
-    border-color: #2563EB;
+    box-shadow: inset 0 0 0 0 #0F172A;
+    border-color: #0F172A;
 }
 
 #loader {
@@ -91,7 +93,7 @@ a:focus {
     width: 45px;
     height: 45px;
     border: 5px solid #dddddd;
-    border-top: 5px solid #2563EB;
+    border-top: 5px solid #0F172A;
     border-radius: 50%;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
@@ -206,7 +208,7 @@ a:focus {
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: #2563EB;
+        color: #0F172A;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -229,7 +231,7 @@ a:focus {
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #2563EB;
+        color: #0F172A;
     }
 }
 
@@ -240,7 +242,7 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #2563EB;
+        color: #0F172A;
     }
     
     .navbar .navbar-nav {
@@ -267,8 +269,8 @@ a:focus {
     padding: 70px 0 0 0;
     overflow: hidden;
     /* background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg); */
-    background: linear-gradient(rgba(101, 146, 243, 0.85), rgba(117, 158, 248, 0.85)), url(../img/MyHero1.jpg);
-/* background: linear-gradient(rgba(10, 37, 64, 0.85), rgba(10, 37, 64, 0.85)), url(../img/hero-bg.jpg); */
+    background: linear-gradient(135deg, rgba(14, 20, 35, 0.85), rgba(22, 28, 36, 0.85)), url(../img/MyHero1.jpg);
+/* background: linear-gradient(rgba(14, 36, 57, 0.85), rgba(14, 33, 52, 0.85)), url(../img/MyHero1.jpg); */
 
     background-position: center;
     background-repeat: no-repeat;
@@ -339,7 +341,7 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: #2563EB;
+    color: #0F172A;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -464,7 +466,7 @@ a:focus {
     top: 11px;
     right: 0;
     left: -30px;
-    background: #2563EB;
+    background: #0F172A;
     z-index: -1;
 }
 
@@ -475,7 +477,7 @@ a:focus {
     height: 3px;
     top: 11px;
     left: 3px;
-    background: #2563EB;
+    background: #0F172A;
     z-index: 1;
 }
 
@@ -557,7 +559,7 @@ a:focus {
 
 .about .progress .progress-bar {
     width: 0px;
-    background: #2563EB;
+    background: #0F172A;
     border-radius: 10px;
     transition: 2s;
 }
@@ -590,7 +592,7 @@ a:focus {
     content: '';
     position: absolute;
     width: 2px;
-    background: #2563EB;
+    background: #0F172A;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -622,7 +624,7 @@ a:focus {
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #2563EB;
+    border: 2px solid #0F172A;
     border-radius: 16px;
     z-index: 1;
 }
@@ -654,7 +656,7 @@ a:focus {
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #2563EB;
+    color: #0F172A;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -768,7 +770,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #2563EB;
+    box-shadow: inset 800px 0 0 0 #0F172A;
 }
 
 .service .service-icon {
@@ -778,14 +780,14 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #2563EB;
+    border: 1px solid #0F172A;
     background: #ffffff;
 }
 
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #2563EB;
+    color: #0F172A;
     transition: .3s;
 }
 
@@ -853,10 +855,10 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #2563EB;
+    background: #0F172A;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #2563EB;
+    box-shadow: inset 0 0 0 50px #0F172A;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -866,10 +868,10 @@ a:focus {
 /* Default theme color --> #EF233C */
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #2563EB;
+    color: #0F172A;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #2563EB;
-    border-color: #2563EB;
+    box-shadow: inset 0 0 0 0 #0F172A;
+    border-color: #0F172A;
 }
 
 .portfolio .portfolio-item {
@@ -925,20 +927,20 @@ a:focus {
 
 .portfolio .portfolio-text a.btn {
     width: 50px;
-    height: 50px;
-    padding: 0 0 2px 1px;
+    height: 40px;
+    padding: 0 0 4px 1px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 100;
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #2563EB;
+    color: #0F172A;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #2563EB;
-    border-color: #2563EB;
+    box-shadow: inset 0 0 0 0 #0F172A;
+    border-color: #0F172A;
 }
 
 
@@ -950,7 +952,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: #2563EB;
+    background: #0F172A;
 }
 
 .banner .container {
@@ -987,7 +989,7 @@ a:focus {
 
 .banner .banner-text .btn {
     margin-top: 15px;
-    color: #2563EB;
+    color: #0F172A;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1050,7 +1052,7 @@ a:focus {
 }
 
 .team .team-text h2 {
-    color: #2563EB;
+    color: #0F172A;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1089,7 +1091,7 @@ a:focus {
 }
 
 .team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #2563EB;
+    box-shadow: inset 800px 0 0 0 #0F172A;
 }
 
 .team .team-item:hover .team-img img {
@@ -1139,7 +1141,7 @@ a:focus {
     position: relative;
     margin: 45px 0;
     padding: 90px 0;
-    background: #2563EB;
+    background: #0F172A;
 }
 
 .testimonial .container {
@@ -1191,7 +1193,7 @@ a:focus {
 }
 
 .testimonial .testimonial-text h3 {
-    color: #2563EB;
+    color: #0F172A;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -1229,7 +1231,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #2563EB;
+    background: #0F172A;
 }
 
 .contact .container-fluid {
@@ -1241,7 +1243,7 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #2563EB;
+    background: #0F172A;
 }
 
 .contact .contact-form input {
@@ -1275,7 +1277,7 @@ a:focus {
 
 .contact .contact-form .btn {
     margin-top: 35px;
-    color: #2563EB;
+    color: #0F172A;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1389,7 +1391,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #2563EB;
+    background: #0F172A;
 }
 
 .footer .container-fluid {
